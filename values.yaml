@@ -205,16 +205,12 @@ tolerations: []
 
 affinity: {}
 
-volumeMounts: 
-  - mountPath: /nfs
-    name: share-storage
+volumeMounts: []
 #  - mountPath: /etc/timezone
 #    name: <volumeName>
 #    subPath: ..data/timezone
 
-volumes:
-  - name: share-storage
-    claimName: openebs-rwx-pvc
+volumes: []
 #  - name: share-storage
 #    claimName: openebs-rwx-pvc
 
