@@ -165,11 +165,7 @@ spec:
       {{- end }}
       volumes:
       {{- with .Values.volumes }}
-      {{- range . }}
-        - name: {{ .name }}
-          persistentVolumeClaim:
-            claimName: {{ .claimName }}
-      {{- end }}
+        {{- toYaml . | nindent 8 }}
       {{- end }}
       {{- if or .Values.files .Values.binaryFiles }}
         - name: files
