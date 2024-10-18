@@ -3,22 +3,22 @@ entries:
   base-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-12-16T23:04:27.518862945+02:00"
+    created: "2024-10-18T19:45:18.555078429+03:00"
     description: A Helm chart for Kubernetes
-    digest: 8e38cab537ba8efde837ef43cfa5342c5a8a5ef2958ad36cbffa9bc6fab159e6
+    digest: 290a84ab14f33f449cde0da67e6a6eb669e7e8677a06e49ffbf1aad8a374ffe1
     name: base-chart
     type: application
     urls:
-    - base-chart-0.1.1.tgz
+    - https://raw.githubusercontent.com/BetGate/base-chart/main/base-chart-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-12-16T23:04:27.517824641+02:00"
+    created: "2024-10-18T19:45:18.554643873+03:00"
     description: A Helm chart for Kubernetes
     digest: dcda4c6c6db739df4b2818108f670b5f79c972e4fd1d944ac6e25aa36bed0fd8
     name: base-chart
     type: application
     urls:
-    - base-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/BetGate/base-chart/main/base-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-16T23:04:27.516976617+02:00"
+generated: "2024-10-18T19:45:18.55409351+03:00"
