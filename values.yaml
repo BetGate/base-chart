@@ -184,11 +184,11 @@ resources: {}
   #   cpu: 100m
   #   memory: 128Mi
 
-initContainers: []
+initContainers: ""
 #initContainers: |-
 #  - name: init01
 
-sidecars: []
+sidecars: ""
 #sidecars: |-
 #  - name: sidecar01
 
